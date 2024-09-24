@@ -1,0 +1,10 @@
+table,thead,tbody,td {
+    border: 1px solid blue;
+    padding: 2px;
+    margin: 25px;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+

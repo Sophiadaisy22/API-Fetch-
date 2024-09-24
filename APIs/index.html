@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning fetch API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <label for="selectApi">Select Category:</label>
+        <select id="selectApi">
+        </select>
+
+    <label id="ApiResult"></label>
+
+
+    <form id="categoryForm">
+        <label for="jokeDisplay">Chuck Norris Joke:</label><br>
+       <div>
+        <label for="value">Value:</label>
+        <input type="text" id="value" style="width: 400px; height: 40px;">
+       </div>
+       <div>
+        <label for="id">ID:</label>
+        <input type="text" id="id">
+       </div>
+       <div>
+        <label for="created">Created_at:</label>
+        <input type="text" id="created">
+       </div>
+       <div>
+        <label for="updated">Updated_at:</label>
+        <input type="text" id="updated">
+       </div>
+    </form>
+
+    <table id="categoryTable" class="wrapper">
+        <thead>
+            <tr>
+               <th>Name</th>
+               <th>Height</th>
+               <th>Mass</th>
+               <th>Hair Color</th>
+               <th>Skin Color</th>
+               <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+
+    </table>
+    <form id="dataForm">
+        <h1>Details</h1>
+        <div >
+            <label for="name">Name</label>
+            <input id="name" type="text">
+        </div>
+        <div >
+            <label for="mass">Mass</label>
+            <input id="mass"  type="text">
+        </div>
+        <div>
+            <label for="skin">Skin Color</label>
+            <input  id="skin" type="text">
+        </div>
+        <div >
+            <label for="birth">Birth Year</label>
+            <input id="birth" type="text">
+        </div>
+        <div >
+            <label for="height">Height</label>
+            <input  id="height" type="text">
+        </div>
+        <div >
+            <label for="hair">Hair Color</label>
+            <input  id="hair" type="text">
+        </div>
+        <div>
+            <label for="eye">Eye Color</label>
+            <input  id="eye" type="text">
+        </div>
+        <div >
+            <label for="gender">Gender</label>
+            <input  id="gender" type="text">
+        </div>
+      
+
+
+
+
+    </form>
+</body>
+<script src="./index.js">
+
+</script>
+</html>
